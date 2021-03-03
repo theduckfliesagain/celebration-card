@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script defer src="index.js"></script>
-    <title>Document</title>
+    <title>Greeting Card Generator</title>
 </head>
 <body>
+
+    <form>
+        <label for="greeting">Greeting:</label>
+        <input type="text" id="greeting" name="greeting" placeholder= "Happy" >
+        <label for="event">Event:</label>
+        <select id="event" name="events">
+            <option value="birthday">Birthday!</option>
+            <option value="new-year">New Year!</option>
+            <option value="christmas">Christmas</option>
+            <option value="pirate-day">Piraaarte day!</option>
+          </select>
+        <label for="message">Message:</label>
+        <input type="text" id="message" name="message" placeholder= "Have a great day!" >
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="card">
+
+    </div>
+
     
 </body>
 </html>
